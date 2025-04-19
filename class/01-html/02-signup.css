@@ -1,3 +1,47 @@
-.pw {
+* {
+  box-sizing: border-box;
+}
+#pb {
   border: 1px solid blue;
+  width: 400px;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 30px;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  border-radius: 20px;
+}
+#email {
+  border-width: 0 0 1px;
+  border-color: skyblue;
+  outline: none;
+}
+.ib {
+  border-width: 0 0 1px;
+  outline: none;
+}
+.radioGender {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.radiofemale {
+  margin-right: 20px;
+}
+.chkInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  width: 300px;
+  height: 30px;
 }
